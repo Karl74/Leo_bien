@@ -1,0 +1,149 @@
+/* ---- Outer boxes ------------------------------------------------------------------------------------------*/
+html {height:100%}
+body {
+	background-color:black;
+	color:white;
+	font-family: 'Farsan', cursive;
+	margin: 2px;
+	height: 532px;
+}
+
+#general {
+	width: 1024px;
+	margin:auto;
+	height: 100%;
+}
+
+/* ---- Main header ---------------------------------------------------------------------------------------*/
+
+.mainheader {
+	width: 960px;
+	height: 90px;
+	margin:0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.leobox {
+	font-family: 'Luckiest Guy', cursive;
+	font-size:85px;
+}
+
+
+
+
+/* ---- Nav bar ---------------------------------------------------------------------------------------------*/
+
+.navbar {
+ 	width: 960px;
+	height: 40px;
+	margin: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+ }
+
+ .menubox {
+ 	width: 140px;
+	height: 38px;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+	border-radius: 5px;
+	text-align: center;
+ }
+
+
+.bannermenu {
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+}
+#uno {
+	background-color: #1255b2;	
+}
+
+#dos {
+	background-color: #ff6666;
+}
+
+#tres {
+	background-color: #72b212;
+}
+
+#cuatro {
+	background-color: #a037ff;
+}
+
+
+a:link, a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:red;
+	font-weight: bolder;
+	text-shadow: 2px;
+}
+
+/* ---- Game bar --------------------------------------------------------------------------------------------*/
+.gamebar {
+	background-color: #fbb146;
+	width: 960px;
+	height: 100px;
+	padding: 0px; 
+	margin: 0px 0px 0px 0px;
+	border-radius: 50px 50px 0px 0px;
+	text-align: center;
+}
+
+.bannergamebar {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 10px 0px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+/* ---- Nav bar ---------------------------------------------------------------------------------------------*/
+
+section {
+	background-color: #148d88;
+	width: 960px;
+	height: 100%;
+	padding: 0px; 
+	margin: 0px 0px 0px 00px;
+	border-radius: 0px 0px 50px 50px;
+	text-align: center;
+}
+
+.rowed {
+	width:500px;
+	margin: auto;
+	padding: 17px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.case {
+	background-color: #fbb146;
+	width: 77px;
+	height: 83px;
+	padding: 0px; 
+	margin: 0px 0px 0px 0px;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+}
+.letter {
+	padding:18px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: sans-serif;
+	font-size:45px;
+	color:red;
+}
