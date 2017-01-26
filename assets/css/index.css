@@ -32,7 +32,6 @@ body {
 
 
 
-
 /* ---- Nav bar ---------------------------------------------------------------------------------------------*/
 
 .navbar {
@@ -55,7 +54,7 @@ body {
 
 
 .bannermenu {
-	margin: 10px;
+	margin: 5px;
 	padding: 0px;
 	text-align: center;
 }
@@ -64,7 +63,7 @@ body {
 }
 
 #dos {
-	background-color: #ff6666;
+	background-color: #d43f39;
 }
 
 #tres {
@@ -87,6 +86,11 @@ a:hover, a:active {
 	text-shadow: 2px;
 }
 
+h4 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
 /* ---- Game bar --------------------------------------------------------------------------------------------*/
 .gamebar {
 	background-color: #fbb146;
@@ -104,14 +108,14 @@ a:hover, a:active {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 60px;
 }
 
 h3 {
 	font-size: 20px;
 }
 
-/* ---- Nav bar ---------------------------------------------------------------------------------------------*/
+/* ---- CATALOG actionzone  ---------------------------------------------------------------------------------------------*/
 
 section {
 	background-color: #148d88;
@@ -146,4 +150,39 @@ section {
 	font-family: sans-serif;
 	font-size:45px;
 	color:red;
+}
+
+
+/* ---- CATALOG actionzone  ---------------------------------------------------------------------------------------------*/
+
+
+.questionframe {
+	width:250px;
+	height: 250px;
+	margin:auto;
+	padding: 55px 0px 0px 0px;
+}
+
+.gameimg {
+	width:250px;
+	height: 250px;
+}
+
+.gamelabel {
+	margin:25px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#next {
+	margin:40px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width:170px;
+	height: 62px;
+	color:white;
+	background-color:#337ab7;
+	border-color:#2e6da4;
+	border-radius: 7px 7px 7px 7px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 27px;
+	font-weight:400px;
 }
