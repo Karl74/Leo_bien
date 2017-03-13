@@ -26,17 +26,37 @@ var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: 
 			];
 
 
-var i=0;
-	document.getElementById("next").onclick = function(){
-		var nueva = mpslt[i+1].imagen;
-		console.log(nueva);
-		var etiqueta = mpslt[i+1].label;
-		document.getElementById("myImg").src = nueva;
-		document.getElementById("wLabel").innerHTML = etiqueta;
+// var i=0;
+// 	document.getElementById("next").onclick = function(){
+// 		var nueva = mpslt[i+1].imagen;
+// 		console.log(nueva);
+// 		var etiqueta = mpslt[i+1].label;
+// 		document.getElementById("myImg").src = nueva;
+// 		document.getElementById("wLabel").innerHTML = etiqueta;
 
-		i = i+1;
+// 		i = i+1;
 
-		if (i == 9) {
-			i = 0;
-		};
-	};
+// 		if (i == 9) {
+// 			i = 0;
+// 		};
+// 	};
+
+
+$(document).ready(function() {
+
+	function probando(){
+		$("#actionz").html("Probando, probando");
+	}
+
+		
+	function clearContent(){
+		$("#actionz").empty();
+	}
+
+	$(".case").on("click", function(){
+		clearContent();
+		probando();
+	});
+
+
+});// END OF FUNCION GET READY 

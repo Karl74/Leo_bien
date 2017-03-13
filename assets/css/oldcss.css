@@ -34,10 +34,8 @@ body {
 
 /* ---- Nav bar ---------------------------------------------------------------------------------------------*/
 
-.navbar {
- 	width: 960px;
-	height: 40px;
-	margin: 0px 0px 0px 0px;
+#navbar {
+ 	margin: 0px 0px 0px 0px;
 	display: flex;
 	flex-direction:row;
 	justify-content: center;
