@@ -203,3 +203,13 @@ h3 {
 .caller {
 	margin:auto;
 }
+
+/* ---- dynamic created elements  ---------------------------------------------------------------------------------------------*/
+
+.gameBox {
+	text-align: center;
+}
+
+#nextButtonCp{
+	
+}
