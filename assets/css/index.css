@@ -210,6 +210,16 @@ h3 {
 	text-align: center;
 }
 
+#picFrameCp{ 
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+ }
+
+ #gameTextBoxCp {
+ 	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+ }
+
 #nextButtonCp{
 	
 }
