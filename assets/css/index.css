@@ -208,6 +208,8 @@ h3 {
 
 .gameBox {
 	text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 #picFrameCp{ 
@@ -220,6 +222,8 @@ h3 {
 	padding: 20px 0px 0px 0px;
  }
 
-#nextButtonCp{
-	
-}
+.inLineContainer{ 
+	display: flex;
+	justify-content: flex-start;
+ }
+
