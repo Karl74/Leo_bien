@@ -223,7 +223,82 @@ h3 {
  }
 
 .inLineContainer{ 
+	padding-top:100px;
 	display: flex;
 	justify-content: flex-start;
  }
 
+/*///--- pop up window--------------------*/
+
+#mask{
+	display: none;
+	position:fixed;
+	z-index: 5;
+	left:0;
+	top:0;
+	width: 100%;
+	height:100;
+	overflow: auto;
+	background-color: black;
+}
+
+#popUp {
+	margin: auto;
+	padding: 150px;
+	width: 60%
+}
+
+.green {
+	background-color:#148d88;
+	height: 100px;
+}	
+
+.whiteRibbon{
+	background-color:white;
+	height: 7px;
+}
+
+#popBody{
+	background-color:#fbb146;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#popText{
+	color:white;
+	font-size:36px;
+	padding-top:130px;
+	
+}
+
+.top{
+	border-radius: 30px 30px 0px 0px;
+}
+
+.bottom{
+	border-radius: 0px 0px 30px 30px;
+}
+
+#theX{
+	float:right;
+	font-size:100px;
+	font-weight:bold;
+	padding:0px 20px 0px 0px;
+}
+
+#theX:hover,
+theX:focus{
+	color:red;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+
+/* ---- dynamic created elements CUAL INICIA --------------------------------------------------------------------------------------*/
+
+#letraGrande{ 
+	margin: 20px 0px 0px 0px;
+	padding: 00px 0px 0px 0px;
+	font-size:300px;
+ }
