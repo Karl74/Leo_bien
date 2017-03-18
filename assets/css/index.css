@@ -1,7 +1,7 @@
 /* ---- Outer boxes ------------------------------------------------------------------------------------------*/
 html {height:100%}
 body {
-	background-color:black;
+	background-color:#99ddff;
 	color:white;
 	font-family: 'Farsan', cursive;
 	margin: 0px;
@@ -34,6 +34,7 @@ body {
 #leoText {
 	font-family: 'Luckiest Guy', cursive;
 	font-size:85px;
+	text-shadow:3px 2px black;
 }
 
 /* ---- Nav bar ---------------------------------------------------------------------------------------------*/
@@ -216,12 +217,13 @@ h3 {
  }
 
  #gameTextBoxCp {
+ 	font-size:200px;
  	margin: 0px 0px 0px 0px;
 	padding: 20px 0px 0px 0px;
  }
 
 .inLineContainer{ 
-	padding-top:100px;
+	padding-top:20px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -229,7 +231,7 @@ h3 {
 
 
  .answerChoiceLabel{
- 	font-size:160px;
+ 	font-size:200px;
  }
 
 /*///--- pop up window--------------------*/

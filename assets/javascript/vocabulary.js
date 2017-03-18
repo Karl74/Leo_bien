@@ -1,18 +1,18 @@
-var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label: "ala", answers:["e", "m", "a"] },
-				{letra:"a", imagen:"assets/images/sonidoinicial/anillo.png", label: "anillo", answers:["a", "l", "i"] },
-				{letra:"e", imagen:"assets/images/sonidoinicial/escoba.png", label: "escoba", answers:["o", "e", "u"] },
-				{letra:"e", imagen:"assets/images/sonidoinicial/escuela.png", label: "escuela", answers:["a", "e", "p"] },
-				{letra:"i", imagen:"assets/images/sonidoinicial/iguana.jpg", label: "iguana", answers:["i", "u", "s"] },
-				{letra:"i", imagen:"assets/images/sonidoinicial/iman.png", label: "imán", answers:["t", "u", "i"] },
-				{letra:"o", imagen:"assets/images/sonidoinicial/ojo.png", label: "ojo", answers:["a", "t", "o"] }, 
-				{letra:"o", imagen:"assets/images/sonidoinicial/oreja.png", label: "oreja", answers:["o", "a", "u"] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "t", "e"] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"] },
+var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label: "ala", answers:["e", "m", "a"], pictAnswer: [3, 7, 0] },
+				{letra:"a", imagen:"assets/images/sonidoinicial/anillo.png", label: "anillo", answers:["a", "l", "i"], pictAnswer: [1, 8, 4] },
+				{letra:"e", imagen:"assets/images/sonidoinicial/escoba.png", label: "escoba", answers:["o", "e", "u"], pictAnswer: [9, 2, 5] },
+				{letra:"e", imagen:"assets/images/sonidoinicial/escuela.png", label: "escuela", answers:["a", "e", "p"], pictAnswer: [6, 3, 0]},
+				{letra:"i", imagen:"assets/images/sonidoinicial/iguana.jpg", label: "iguana", answers:["i", "u", "s"], pictAnswer: [4, 1, 7]},
+				{letra:"i", imagen:"assets/images/sonidoinicial/iman.png", label: "im&#225n", answers:["t", "u", "i"], pictAnswer: [8, 2, 5]},
+				{letra:"o", imagen:"assets/images/sonidoinicial/ojo.png", label: "ojo", answers:["a", "t", "o"], pictAnswer: [9, 3, 6]}, 
+				{letra:"o", imagen:"assets/images/sonidoinicial/oreja.png", label: "oreja", answers:["o", "a", "u"], pictAnswer: [7, 0, 4] },
+				{letra:"u", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
+				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"], pictAnswer: [2, 9, 6] },
 			];
 
 
-var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["d", "m", "a"], pictAnswer: [3, 0, 7]},		
-				{letra:"m", imagen:"assets/images/sonidoinicial/mama.png", label: "mamá", answers:["m", "e", "r"], pictAnswer: [1, 8, 4] },
+var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["d", "m", "a"], pictAnswer: [3, 0, 7] },		
+				{letra:"m", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["m", "e", "r"], pictAnswer: [1, 8, 4] },
 				{letra:"p", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "p"], pictAnswer: [9, 5, 2] },
 				{letra:"p", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["p", "t", "r"], pictAnswer: [3, 6, 0] },
 				{letra:"s", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["e", "t", "s"], pictAnswer: [7, 1, 4] }, 
@@ -25,9 +25,59 @@ var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: 
 
 
 var ind= 0;
-//var nextButton;
+var modeChoice;
 
 $(document).ready(function() {
+
+//---BUTON EVENT SELECT LETTERS AND MODE----------------------
+
+	
+	$("input:radio").on("click",function(){
+	modeChoice = $("input[name=mode]:checked").val();
+	console.log(modeChoice);
+	});
+
+	$("#aeiou").on("click", function(){
+
+		if (modeChoice == "soloPalabras"){
+			 clearContent();
+			 slideShow(vocales);
+
+		} else if (modeChoice == "queSonidoI"){
+			 clearContent();
+			 queSonido(vocales);
+
+		} else if (modeChoice == "cualIniciaI"){
+			clearContent();
+			cualInicia(vocales);
+		};
+
+	}); //end aeio buton event
+
+	$("#MPSLT").on("click", function(){
+
+		if (modeChoice == "soloPalabras"){
+			 clearContent();
+			 slideShow(mpslt);
+
+		} else if (modeChoice == "queSonidoI"){
+			 clearContent();
+			 queSonido(mpslt);
+
+		} else if (modeChoice == "cualIniciaI"){
+			clearContent();
+			cualInicia(mpslt);
+		};
+
+	}); //end MPSLT buton event
+
+
+	$("#DRNFB").on("click", function(){
+			clearContent();
+			cualInicia(mpslt);
+		});
+
+
 
 	function clearContent(){
 		$("#actionz").empty();
@@ -43,7 +93,7 @@ $(document).ready(function() {
 		var gameTextBox = $("<div>");
 		gameTextBox.attr("class", "gameBox");
 		gameTextBox.attr("id", "gameTextBoxCp");
-		gameTextBox.html("<h2>" + letters[0].label + "</h2>");
+		gameTextBox.html("<h1>" + letters[0].label + "</h1>");
 		$("#actionz").append(gameTextBox);
 		
 		var buttonBox = $("<div>");
@@ -59,7 +109,7 @@ $(document).ready(function() {
 		$("#nextButtonCp").click(function(){
 			ind++;
 			picFrame.html("<img src=" + letters[ind].imagen + " width='276px' height='276px'>");
-			gameTextBox.html("<h2>" + letters[ind].label + "</h2>");
+			gameTextBox.html("<h1>" + letters[ind].label + "</h1>");
 			
 			if(ind == 9){
 				ind=0;
@@ -225,7 +275,7 @@ function cualInicia(letters){
 
 			if(ind == 9){
 				picFrame.empty
-				html("Lo lograste!!!!!");
+				$("#picFrameCp").html("Lo lograste!!!!!");
 				$("#buttonBoxCp").html("<a href='sonidoInicial.html'>REGRESAR");
 			}
 		}); // END OF RADIO EVENT
@@ -257,22 +307,7 @@ function cualInicia(letters){
 
 
 
-	//---BUTON EVENT SELECT LETTERS AND MODE----------------------
-
-	$("#aeiou").on("click", function(){
-		clearContent();
-		queSonido(vocales);
-	});
-
-	$("#MPSLT").on("click", function(){
-			clearContent();
-			slideShow(mpslt);
-		});
-
-	$("#DRNFB").on("click", function(){
-			clearContent();
-			cualInicia(mpslt);
-		});
+	
 
 
 
