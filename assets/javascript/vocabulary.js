@@ -83,15 +83,15 @@ $(document).ready(function() {
 		$("#actionz").append(buttonBox);
 
 		var choiceContainer1 = $("<div>");
-		choiceContainer1.attr("class", "inLineContainer");
+		choiceContainer1.attr("class", "inLineContainer answerChoiceLabel");
 		buttonBox.append(choiceContainer1);
 
 		var choiceContainer2 = $("<div>");
-		choiceContainer2.attr("class", "inLineContainer");
+		choiceContainer2.attr("class", "inLineContainer answerChoiceLabel");
 		buttonBox.append(choiceContainer2);
 
 		var choiceContainer3 = $("<div>");
-		choiceContainer3.attr("class", "inLineContainer");
+		choiceContainer3.attr("class", "inLineContainer answerChoiceLabel");
 		buttonBox.append(choiceContainer3);
 
 
@@ -224,7 +224,8 @@ function cualInicia(letters){
 			};
 
 			if(ind == 9){
-				picFrame.html("Lo lograste!!!!!");
+				picFrame.empty
+				html("Lo lograste!!!!!");
 				$("#buttonBoxCp").html("<a href='sonidoInicial.html'>REGRESAR");
 			}
 		}); // END OF RADIO EVENT
