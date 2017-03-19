@@ -1,5 +1,5 @@
 var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label: "ala", answers:["e", "m", "a"], pictAnswer: [3, 7, 0] },
-				{letra:"a", imagen:"assets/images/sonidoinicial/anillo.png", label: "anillo", answers:["a", "l", "i"], pictAnswer: [1, 8, 4] },
+				{letra:"a", imagen:"assets/images/sonidoinicial/anillo.png", label: "anillo", answers:["n", "a", "l"], pictAnswer: [4, 1, 8] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escoba.png", label: "escoba", answers:["o", "e", "u"], pictAnswer: [9, 2, 5] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escuela.png", label: "escuela", answers:["a", "e", "p"], pictAnswer: [6, 3, 0]},
 				{letra:"i", imagen:"assets/images/sonidoinicial/iguana.jpg", label: "iguana", answers:["i", "u", "s"], pictAnswer: [4, 1, 7]},
@@ -7,7 +7,7 @@ var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label:
 				{letra:"o", imagen:"assets/images/sonidoinicial/ojo.png", label: "ojo", answers:["a", "t", "o"], pictAnswer: [9, 3, 6]}, 
 				{letra:"o", imagen:"assets/images/sonidoinicial/oreja.png", label: "oreja", answers:["o", "a", "u"], pictAnswer: [7, 0, 4] },
 				{letra:"u", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
-				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"], pictAnswer: [2, 9, 6] },
+				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"], pictAnswer: [2, 9, 6] }
 			];
 
 
@@ -19,9 +19,37 @@ var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: 
 				{letra:"s", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["s", "t", "u"], pictAnswer: [5, 2, 8] },
 				{letra:"t", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["e", "t", "d"], pictAnswer: [9, 6, 3] },
 				{letra:"t", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["f", "c", "t"], pictAnswer: [4, 0, 7] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "i", "l"], pictAnswer: [8, 5, 1] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "u", "a"], pictAnswer: [2, 9, 6] },
+				{letra:"l", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "i", "l"], pictAnswer: [8, 5, 1] },
+				{letra:"l", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "u", "a"], pictAnswer: [2, 9, 6] }
 			];
+
+var drnfb = [	
+				{letra:"d", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["r", "d", "a"], pictAnswer: [3, 0, 7] },		
+				{letra:"d", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["d", "e", "r"], pictAnswer: [1, 8, 4] },
+				{letra:"r", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "r"], pictAnswer: [9, 5, 2] },
+				{letra:"r", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["r", "t", "o"], pictAnswer: [3, 6, 0] },
+				{letra:"n", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
+				{letra:"n", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["n", "f", "u"], pictAnswer: [5, 2, 8] },
+				{letra:"f", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["g", "f", "d"], pictAnswer: [9, 6, 3] },
+				{letra:"f", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["h", "c", "f"], pictAnswer: [4, 0, 7] },
+				{letra:"b", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["b", "z", "l"], pictAnswer: [8, 5, 1] },
+				{letra:"b", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "b", "q"], pictAnswer: [2, 9, 6] }
+
+			];
+
+var JG209VLl = [
+				{letra:"j", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
+				{letra:"j", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
+				{letra:"&#209", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["o", "s", "&#209"], pictAnswer: [7, 1, 4] }, 
+				{letra:"&#209", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
+				{letra:"Ll", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["Ll", "z", "u"], pictAnswer: [8, 5, 1] },
+				{letra:"Ll", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "Ll", "q"], pictAnswer: [2, 9, 6] }
+			];
+
 
 
 var ind= 0;
@@ -71,11 +99,22 @@ $(document).ready(function() {
 
 	}); //end MPSLT buton event
 
-
 	$("#DRNFB").on("click", function(){
+
+		if (modeChoice == "soloPalabras"){
+			 clearContent();
+			 slideShow(drnfb);
+
+		} else if (modeChoice == "queSonidoI"){
+			 clearContent();
+			 queSonido(drnfb);
+
+		} else if (modeChoice == "cualIniciaI"){
 			clearContent();
-			cualInicia(mpslt);
-		});
+			cualInicia(drnfb);
+		};
+
+	}); //end DRNFB buton event
 
 
 
@@ -86,7 +125,7 @@ $(document).ready(function() {
 	function slideShow(letters){
 		var picFrame = $("<div>");
 		picFrame.attr("class", "gameBox");
-		picFrame.attr("id","picFrameCp");
+		picFrame.attr("id","letraGrande");
 		picFrame.html("<img src=" + letters[0].imagen + " width='276px' height='276px'>");
 		$("#actionz").append(picFrame); 
 		
@@ -103,6 +142,7 @@ $(document).ready(function() {
 		
 		var nextButton = $("<button>");
 		nextButton.attr("id", "nextButtonCp");
+		nextButton.attr("class", "case");
 		nextButton.html("Siguiente");
 		buttonBox.append(nextButton);
 	

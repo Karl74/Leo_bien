@@ -219,7 +219,7 @@ h3 {
  #gameTextBoxCp {
  	font-size:200px;
  	margin: 0px 0px 0px 0px;
-	padding: 20px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
  }
 
 .inLineContainer{ 
@@ -305,6 +305,6 @@ theX:focus{
 
 #letraGrande{ 
 	margin: 0px 0px 0px 0px;
-	padding: 00px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	font-size:300px;
  }
