@@ -1,12 +1,12 @@
 var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label: "ala", answers:["e", "m", "a"], pictAnswer: [3, 7, 0] },
-				{letra:"a", imagen:"assets/images/sonidoinicial/anillo.png", label: "anillo", answers:["n", "a", "l"], pictAnswer: [4, 1, 8] },
+				{letra:"a", imagen:"assets/images/sonidoinicial/Anillo.png", label: "anillo", answers:["n", "a", "l"], pictAnswer: [4, 1, 8] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escoba.png", label: "escoba", answers:["o", "e", "u"], pictAnswer: [9, 2, 5] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escuela.png", label: "escuela", answers:["a", "e", "p"], pictAnswer: [6, 3, 0]},
 				{letra:"i", imagen:"assets/images/sonidoinicial/iguana.jpg", label: "iguana", answers:["i", "u", "s"], pictAnswer: [4, 1, 7]},
 				{letra:"i", imagen:"assets/images/sonidoinicial/iman.png", label: "im&#225n", answers:["t", "u", "i"], pictAnswer: [8, 2, 5]},
 				{letra:"o", imagen:"assets/images/sonidoinicial/ojo.png", label: "ojo", answers:["a", "t", "o"], pictAnswer: [9, 3, 6]}, 
 				{letra:"o", imagen:"assets/images/sonidoinicial/oreja.png", label: "oreja", answers:["o", "a", "u"], pictAnswer: [7, 0, 4] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
+				{letra:"u", imagen:"assets/images/sonidoinicial/        ", label: "u&#209a", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
 				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"], pictAnswer: [2, 9, 6] }
 			];
 
@@ -14,40 +14,40 @@ var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label:
 var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["d", "m", "a"], pictAnswer: [3, 0, 7] },		
 				{letra:"m", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["m", "e", "r"], pictAnswer: [1, 8, 4] },
 				{letra:"p", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "p"], pictAnswer: [9, 5, 2] },
-				{letra:"p", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["p", "t", "r"], pictAnswer: [3, 6, 0] },
+				{letra:"p", imagen:"assets/images/sonidoinicial/        ", label: "pi&#209ata", answers:["p", "t", "r"], pictAnswer: [3, 6, 0] },
 				{letra:"s", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["e", "t", "s"], pictAnswer: [7, 1, 4] }, 
 				{letra:"s", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["s", "t", "u"], pictAnswer: [5, 2, 8] },
 				{letra:"t", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["e", "t", "d"], pictAnswer: [9, 6, 3] },
 				{letra:"t", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["f", "c", "t"], pictAnswer: [4, 0, 7] },
-				{letra:"l", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["u", "i", "l"], pictAnswer: [8, 5, 1] },
-				{letra:"l", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "u", "a"], pictAnswer: [2, 9, 6] }
+				{letra:"l", imagen:"assets/images/sonidoinicial/        ", label: "l&#225piz", answers:["l", "i", "u"], pictAnswer: [8, 5, 1] },
+				{letra:"l", imagen:"assets/images/sonidoinicial/        ", label: "leche", answers:["p", "l", "a"], pictAnswer: [2, 9, 6] }
 			];
 
 var drnfb = [	
-				{letra:"d", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["r", "d", "a"], pictAnswer: [3, 0, 7] },		
-				{letra:"d", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["d", "e", "r"], pictAnswer: [1, 8, 4] },
-				{letra:"r", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "r"], pictAnswer: [9, 5, 2] },
-				{letra:"r", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["r", "t", "o"], pictAnswer: [3, 6, 0] },
-				{letra:"n", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
-				{letra:"n", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["n", "f", "u"], pictAnswer: [5, 2, 8] },
-				{letra:"f", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["g", "f", "d"], pictAnswer: [9, 6, 3] },
-				{letra:"f", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["h", "c", "f"], pictAnswer: [4, 0, 7] },
-				{letra:"b", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["b", "z", "l"], pictAnswer: [8, 5, 1] },
-				{letra:"b", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "b", "q"], pictAnswer: [2, 9, 6] }
+				{letra:"d", imagen:"assets/images/sonidoinicial/        ", label: "dulce", answers:["r", "d", "a"], pictAnswer: [3, 0, 7] },		
+				{letra:"d", imagen:"assets/images/sonidoinicial/        ", label: "dinero", answers:["d", "e", "r"], pictAnswer: [1, 8, 4] },
+				{letra:"r", imagen:"assets/images/sonidoinicial/        ", label: "rosa", answers:["m", "b", "r"], pictAnswer: [9, 5, 2] },
+				{letra:"r", imagen:"assets/images/sonidoinicial/        ", label: "rama", answers:["r", "t", "o"], pictAnswer: [3, 6, 0] },
+				{letra:"n", imagen:"assets/images/sonidoinicial/        ", label: "nar&#205z", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
+				{letra:"n", imagen:"assets/images/sonidoinicial/        ", label: "nube", answers:["n", "f", "u"], pictAnswer: [5, 2, 8] },
+				{letra:"f", imagen:"assets/images/sonidoinicial/        ", label: "foto", answers:["g", "f", "d"], pictAnswer: [9, 6, 3] },
+				{letra:"f", imagen:"assets/images/sonidoinicial/        ", label: "foca", answers:["h", "c", "f"], pictAnswer: [4, 0, 7] },
+				{letra:"b", imagen:"assets/images/sonidoinicial/        ", label: "bote", answers:["b", "z", "l"], pictAnswer: [8, 5, 1] },
+				{letra:"b", imagen:"assets/images/sonidoinicial/        ", label: "bigote", answers:["l", "b", "q"], pictAnswer: [2, 9, 6] }
 
 			];
 
 var JG209VLl = [
-				{letra:"j", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
-				{letra:"j", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
-				{letra:"g", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
-				{letra:"g", imagen:"assets/images/sonidoinicial/pila.gif", label: "pila", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
-				{letra:"&#209", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["o", "s", "&#209"], pictAnswer: [7, 1, 4] }, 
-				{letra:"&#209", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
-				{letra:"v", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
-				{letra:"v", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
-				{letra:"Ll", imagen:"assets/images/sonidoinicial/uno.png", label: "uno", answers:["Ll", "z", "u"], pictAnswer: [8, 5, 1] },
-				{letra:"Ll", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["l", "Ll", "q"], pictAnswer: [2, 9, 6] }
+				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jab&#243", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
+				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jugo", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gigante", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gorra", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
+				{letra:"&#209", imagen:"assets/images/sonidoinicial/        ", label: "&#209o&#209o", answers:["o", "s", "&#209"], pictAnswer: [7, 1, 4] }, 
+				{letra:"&#209", imagen:"assets/images/sonidoinicial/        ", label: "&#209and&#250", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/        ", label: "vela", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/        ", label: "vaso", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
+				{letra:"Ll", imagen:"assets/images/sonidoinicial/        ", label: "lluvia", answers:["Ll", "z", "u"], pictAnswer: [8, 5, 1] },
+				{letra:"Ll", imagen:"assets/images/sonidoinicial/        ", label: "llama", answers:["l", "Ll", "q"], pictAnswer: [2, 9, 6] }
 			];
 
 
