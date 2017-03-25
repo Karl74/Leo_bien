@@ -162,12 +162,16 @@ $(document).ready(function() {
 		buttonBox.append(nextButton);
 	
 		$("#nextButtonCp").click(function(){
+			if(ind < 9){
 			ind++;
 			picFrame.html("<img src=" + letters[ind].imagen + " width='276px' height='276px'>");
 			gameTextBox.html("<h1>" + letters[ind].label + "</h1>");
-			
-			if(ind == 9){
+			console.log("this is ind: " + ind);
+			} else {
 				ind=0;
+				picFrame.html("<img src=" + letters[0].imagen + " width='276px' height='276px'>");
+				gameTextBox.html("<h1>" + letters[0].label + "</h1>");
+
 			}
 		});
 
@@ -226,7 +230,7 @@ $(document).ready(function() {
 			console.log(theAnswer);
 			
 
-			if (theAnswer == letters[ind].letra){
+			if (theAnswer == letters[ind].letra && ind < 9){
 				ind ++;
 				rightAnswer();
 				picFrame.html("<img src=" + letters[ind].imagen + " width='276px' height='276px'>");
@@ -238,15 +242,23 @@ $(document).ready(function() {
 				inputText3.html(letters[ind].answers[2])
 				theAnswer = "";
 				$("input:radio").prop("checked", false);
-
 			} else {
 				wrongAnswer();
 			};
 
+
 			if(ind == 9){
+				$(".gameBox").empty()
+				$(".gameBox").css("padding", "50px")
 				$("#picFrameCp").html("Lo lograste!!!!!");
-				$("#buttonBoxCp").html("<a href='sonidoInicial.html'>REGRESAR");
+				$("#picFrameCp").css("font-size", "48px");
+				var theEnd = $("<button>");
+				theEnd.attr("class", "case");
+				theEnd.html("<a href='sonidoInicial.html'>REGRESAR</a>");
+				$("#buttonBoxCp").append(theEnd);
+
 			}
+
 		}); // END OF RADIO EVENT
 
 	}//END OF QUE SONIDO FUNCTION
@@ -304,7 +316,7 @@ function cualInicia(letters){
 			console.log(theAnswer);
 			
 
-			if (theAnswer == letters[ind].letra){
+			if (theAnswer == letters[ind].letra && ind < 9){
 				ind ++;
 				console.log("this is ind:" + ind);
 				console.log("cambia a:" +  letters[ind].letra);
@@ -329,13 +341,19 @@ function cualInicia(letters){
 			};
 
 			if(ind == 9){
-				picFrame.empty
-				$("#picFrameCp").html("Lo lograste!!!!!");
-				$("#buttonBoxCp").html("<a href='sonidoInicial.html'>REGRESAR");
+				$(".gameBox").empty()
+				$(".gameBox").css("margin", "50px")
+				$("#letraGrande").html("Lo lograste!!!!!");
+				$("#letraGrande").css("font-size", "48px");
+				var theEnd = $("<button>");
+				theEnd.attr("class", "case");
+				theEnd.html("<a href='sonidoInicial.html'>REGRESAR</a>");
+				$("#buttonBoxCp").append(theEnd);
+
 			}
 		}); // END OF RADIO EVENT
 
-	 }//END OF CUALI NICIA FUNCTION
+	 }//END OF CUALINICIA FUNCTION
 
 
 
