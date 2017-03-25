@@ -41,9 +41,9 @@ var JG209VLl = [
 				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jab&#243n", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
 				{letra:"j", imagen:"assets/images/sonidoinicial/jugo.png", label: "jugo", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
 				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gigante", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
-				{letra:"g", imagen:"assets/images/sonidoinicial/gorra.png", label: "gorra", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
-				{letra:"&#241", imagen:"assets/images/sonidoinicial/        ", label: "&#209o&#209o", answers:["o", "s", "&#209"], pictAnswer: [7, 1, 4] }, 
-				{letra:"&#241", imagen:"assets/images/sonidoinicial/nandu.png", label: "&#209and&#250", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/gorra.png", label: "gorra", answers:["g", "z", "b"], pictAnswer: [3, 6, 0] },
+				{letra:"&#241", imagen:"assets/images/sonidoinicial/        ", label: "&#241o&#241o", answers:["o", "s", "&#241"], pictAnswer: [7, 1, 4] }, 
+				{letra:"&#241", imagen:"assets/images/sonidoinicial/nandu.png", label: "&#241and&#250", answers:["&#241", "f", "Ll"], pictAnswer: [5, 2, 8] },
 				{letra:"v", imagen:"assets/images/sonidoinicial/vela1.jpg", label: "vela", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
 				{letra:"v", imagen:"assets/images/sonidoinicial/vaso.jpg", label: "vaso", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
 				{letra:"Ll", imagen:"assets/images/sonidoinicial/lluvia.jpg", label: "lluvia", answers:["Ll", "z", "u"], pictAnswer: [8, 5, 1] },
@@ -342,7 +342,7 @@ function cualInicia(letters){
 
 			if(ind == 9){
 				$(".gameBox").empty()
-				$(".gameBox").css("margin", "50px")
+				$(".gameBox").css("padding", "50px")
 				$("#letraGrande").html("Lo lograste!!!!!");
 				$("#letraGrande").css("font-size", "48px");
 				var theEnd = $("<button>");
