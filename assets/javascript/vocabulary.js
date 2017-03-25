@@ -362,7 +362,7 @@ function cualInicia(letters){
 //FUNCIONES VENTANA DE RESPUESTA//////////////////////////////////////////////////////////////////
 
 	function rightAnswer(){
-		$("#mask").css("display", "block");
+		$("#mask").css({"display": "block", "background-color": "#99ddff"});
 		$("#popText").html("Fantastico tu respuesta es correcta");
 	}
 
@@ -372,7 +372,7 @@ function cualInicia(letters){
 
 
 	function wrongAnswer(){
-		$("#mask").css("display", "block");
+		$("#mask").css({"display": "block", "background-color": "#ff4d4d"});
 		$("#popText").html("Tu respuesta no es correcta. Intentalo de nuevo");
 	}
 
