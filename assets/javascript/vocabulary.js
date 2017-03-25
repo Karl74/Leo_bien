@@ -28,7 +28,7 @@ var drnfb = [
 				{letra:"d", imagen:"assets/images/sonidoinicial/dinero.png", label: "dinero", answers:["d", "e", "r"], pictAnswer: [1, 8, 4] },
 				{letra:"r", imagen:"assets/images/sonidoinicial/rosa.png", label: "rosa", answers:["m", "b", "r"], pictAnswer: [9, 5, 2] },
 				{letra:"r", imagen:"assets/images/sonidoinicial/ramas.jpg", label: "rama", answers:["r", "t", "o"], pictAnswer: [3, 6, 0] },
-				{letra:"n", imagen:"assets/images/sonidoinicial/", label: "nar&#237z", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
+				{letra:"n", imagen:"assets/images/sonidoinicial/        ", label: "nar&#237z", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
 				{letra:"n", imagen:"assets/images/sonidoinicial/nubes.jpg", label: "nube", answers:["n", "f", "u"], pictAnswer: [5, 2, 8] },
 				{letra:"f", imagen:"assets/images/sonidoinicial/foto.jpg", label: "foto", answers:["g", "f", "d"], pictAnswer: [9, 6, 3] },
 				{letra:"f", imagen:"assets/images/sonidoinicial/foca.png", label: "foca", answers:["h", "c", "f"], pictAnswer: [4, 0, 7] },
@@ -38,16 +38,16 @@ var drnfb = [
 			];
 
 var JG209VLl = [
-				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jab&#243", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
-				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jugo", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
+				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jab&#243n", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
+				{letra:"j", imagen:"assets/images/sonidoinicial/jugo.png", label: "jugo", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
 				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gigante", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
-				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gorra", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/gorra.png", label: "gorra", answers:["v", "z", "b"], pictAnswer: [3, 6, 0] },
 				{letra:"&#241", imagen:"assets/images/sonidoinicial/        ", label: "&#209o&#209o", answers:["o", "s", "&#209"], pictAnswer: [7, 1, 4] }, 
-				{letra:"&#241", imagen:"assets/images/sonidoinicial/        ", label: "&#209and&#250", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
-				{letra:"v", imagen:"assets/images/sonidoinicial/        ", label: "vela", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
-				{letra:"v", imagen:"assets/images/sonidoinicial/        ", label: "vaso", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
+				{letra:"&#241", imagen:"assets/images/sonidoinicial/nandu.png", label: "&#209and&#250", answers:["&#209", "f", "Ll"], pictAnswer: [5, 2, 8] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/vela1.jpg", label: "vela", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
+				{letra:"v", imagen:"assets/images/sonidoinicial/vaso.jpg", label: "vaso", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
 				{letra:"Ll", imagen:"assets/images/sonidoinicial/lluvia.jpg", label: "lluvia", answers:["Ll", "z", "u"], pictAnswer: [8, 5, 1] },
-				{letra:"Ll", imagen:"assets/images/sonidoinicial/", label: "llama", answers:["l", "Ll", "q"], pictAnswer: [2, 9, 6] }
+				{letra:"Ll", imagen:"assets/images/sonidoinicial/llama.jpg", label: "llama", answers:["l", "Ll", "q"], pictAnswer: [2, 9, 6] }
 			];
 
 
@@ -116,7 +116,22 @@ $(document).ready(function() {
 
 	}); //end DRNFB buton event
 
+	$("#jgñvLl").on("click", function(){
 
+		if (modeChoice == "soloPalabras"){
+			 clearContent();
+			 slideShow(JG209VLl);
+
+		} else if (modeChoice == "queSonidoI"){
+			 clearContent();
+			 queSonido(JG209VLl);
+
+		} else if (modeChoice == "cualIniciaI"){
+			clearContent();
+			cualInicia(JG209VLl);
+		};
+
+	}); //end DRNFB buton event
 
 	function clearContent(){
 		$("#actionz").empty();
