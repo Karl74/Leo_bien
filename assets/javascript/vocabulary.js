@@ -1,4 +1,4 @@
-var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label: "ala", answers:["e", "m", "a"], pictAnswer: [3, 7, 0] },
+var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/wings.jpg", label: "ala", answers:["e", "m", "a"], pictAnswer: [3, 7, 0] },
 				{letra:"a", imagen:"assets/images/sonidoinicial/Anillo.png", label: "anillo", answers:["n", "a", "l"], pictAnswer: [4, 1, 8] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escoba.png", label: "escoba", answers:["o", "e", "u"], pictAnswer: [9, 2, 5] },
 				{letra:"e", imagen:"assets/images/sonidoinicial/escuela.png", label: "escuela", answers:["a", "e", "p"], pictAnswer: [6, 3, 0]},
@@ -6,7 +6,7 @@ var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label:
 				{letra:"i", imagen:"assets/images/sonidoinicial/iman.png", label: "im&#225n", answers:["t", "u", "i"], pictAnswer: [8, 2, 5]},
 				{letra:"o", imagen:"assets/images/sonidoinicial/ojo.png", label: "ojo", answers:["a", "t", "o"], pictAnswer: [9, 3, 6]}, 
 				{letra:"o", imagen:"assets/images/sonidoinicial/oreja.png", label: "oreja", answers:["o", "a", "u"], pictAnswer: [7, 0, 4] },
-				{letra:"u", imagen:"assets/images/sonidoinicial/        ", label: "u&#241a", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
+				{letra:"u", imagen:"assets/images/sonidoinicial/unha.png", label: "u&#241a", answers:["u", "t", "e"], pictAnswer: [8, 5, 1]},
 				{letra:"u", imagen:"assets/images/sonidoinicial/uva.png", label: "uva", answers:["e", "u", "o"], pictAnswer: [2, 9, 6] }
 			];
 
@@ -14,11 +14,11 @@ var vocales = [ {letra:"a", imagen:"assets/images/sonidoinicial/ala.png", label:
 var mpslt = [	{letra:"m", imagen:"assets/images/sonidoinicial/mono.png", label: "mono", answers:["d", "m", "a"], pictAnswer: [3, 0, 7] },		
 				{letra:"m", imagen:"assets/images/sonidoinicial/mama.png", label: "mam&#225", answers:["m", "e", "r"], pictAnswer: [1, 8, 4] },
 				{letra:"p", imagen:"assets/images/sonidoinicial/pato.png", label: "pato", answers:["m", "b", "p"], pictAnswer: [9, 5, 2] },
-				{letra:"p", imagen:"assets/images/sonidoinicial/        ", label: "pi&#241ata", answers:["p", "t", "r"], pictAnswer: [3, 6, 0] },
+				{letra:"p", imagen:"assets/images/sonidoinicial/pinata.png", label: "pi&#241ata", answers:["p", "t", "r"], pictAnswer: [3, 6, 0] },
 				{letra:"s", imagen:"assets/images/sonidoinicial/silla.png", label: "silla", answers:["e", "t", "s"], pictAnswer: [7, 1, 4] }, 
 				{letra:"s", imagen:"assets/images/sonidoinicial/sopa.png", label: "sopa", answers:["s", "t", "u"], pictAnswer: [5, 2, 8] },
-				{letra:"t", imagen:"assets/images/sonidoinicial/taco.png", label: "taco", answers:["e", "t", "d"], pictAnswer: [9, 6, 3] },
-				{letra:"t", imagen:"assets/images/sonidoinicial/tela.jpg", label: "tela", answers:["f", "c", "t"], pictAnswer: [4, 0, 7] },
+				{letra:"t", imagen:"assets/images/sonidoinicial/taco.jpg", label: "taco", answers:["e", "t", "d"], pictAnswer: [9, 6, 3] },
+				{letra:"t", imagen:"assets/images/sonidoinicial/telas.jpg", label: "tela", answers:["f", "c", "t"], pictAnswer: [4, 0, 7] },
 				{letra:"l", imagen:"assets/images/sonidoinicial/thepencil.png", label: "l&#225piz", answers:["l", "i", "u"], pictAnswer: [8, 5, 1] },
 				{letra:"l", imagen:"assets/images/sonidoinicial/leche2.png", label: "leche", answers:["p", "l", "a"], pictAnswer: [2, 9, 6] }
 			];
@@ -28,7 +28,7 @@ var drnfb = [
 				{letra:"d", imagen:"assets/images/sonidoinicial/dinero.png", label: "dinero", answers:["d", "e", "r"], pictAnswer: [1, 8, 4] },
 				{letra:"r", imagen:"assets/images/sonidoinicial/rosa.png", label: "rosa", answers:["m", "b", "r"], pictAnswer: [9, 5, 2] },
 				{letra:"r", imagen:"assets/images/sonidoinicial/ramas.jpg", label: "rama", answers:["r", "t", "o"], pictAnswer: [3, 6, 0] },
-				{letra:"n", imagen:"assets/images/sonidoinicial/        ", label: "nar&#237z", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
+				{letra:"n", imagen:"assets/images/sonidoinicial/nose.png", label: "nar&#237z", answers:["e", "r", "n"], pictAnswer: [7, 1, 4] }, 
 				{letra:"n", imagen:"assets/images/sonidoinicial/nubes.jpg", label: "nube", answers:["n", "f", "u"], pictAnswer: [5, 2, 8] },
 				{letra:"f", imagen:"assets/images/sonidoinicial/foto.jpg", label: "foto", answers:["g", "f", "d"], pictAnswer: [9, 6, 3] },
 				{letra:"f", imagen:"assets/images/sonidoinicial/foca.png", label: "foca", answers:["h", "c", "f"], pictAnswer: [4, 0, 7] },
@@ -38,11 +38,11 @@ var drnfb = [
 			];
 
 var JG209VLl = [
-				{letra:"j", imagen:"assets/images/sonidoinicial/        ", label: "jab&#243n", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
+				{letra:"j", imagen:"assets/images/sonidoinicial/jabon.jpg", label: "jab&#243n", answers:["i", "j", "k"], pictAnswer: [3, 0, 7] },		
 				{letra:"j", imagen:"assets/images/sonidoinicial/jugo.png", label: "jugo", answers:["j", "p", "d"], pictAnswer: [1, 8, 4] },
-				{letra:"g", imagen:"assets/images/sonidoinicial/        ", label: "gigante", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
+				{letra:"g", imagen:"assets/images/sonidoinicial/giant.png", label: "gigante", answers:["m", "b", "g"], pictAnswer: [9, 5, 2] },
 				{letra:"g", imagen:"assets/images/sonidoinicial/gorra.png", label: "gorra", answers:["g", "z", "b"], pictAnswer: [3, 6, 0] },
-				{letra:"&#241", imagen:"assets/images/sonidoinicial/        ", label: "&#241o&#241o", answers:["o", "s", "&#241"], pictAnswer: [7, 1, 4] }, 
+				{letra:"&#241", imagen:"assets/images/sonidoinicial/nono.png", label: "&#241o&#241o", answers:["o", "s", "&#241"], pictAnswer: [7, 1, 4] }, 
 				{letra:"&#241", imagen:"assets/images/sonidoinicial/nandu.png", label: "&#241and&#250", answers:["&#241", "f", "Ll"], pictAnswer: [5, 2, 8] },
 				{letra:"v", imagen:"assets/images/sonidoinicial/vela1.jpg", label: "vela", answers:["d", "v", "s"], pictAnswer: [9, 6, 3] },
 				{letra:"v", imagen:"assets/images/sonidoinicial/vaso.jpg", label: "vaso", answers:["i", "q", "v"], pictAnswer: [4, 0, 7] },
