@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="utf-9">
@@ -16,7 +16,7 @@
 <body>
 	<div id="general">
 	<!-- ////////    Main header /////////////////////////////////////////////////////////////////////////////-->
-		
+	
 		<header id="mainheader">
 			<div id="logobox">
 				<img id="logo" src="assets/images/lion14-206x240.png" width="190px">
@@ -26,10 +26,11 @@
 				<h2 id="leoText"> LEO BIEN </h2>
 			</div>
 
-	<!-- ////////   MENU BOTTONS ////////////////////////////////////////////////////////////////////////////-->
+	<!-- ////////   MENU BOTTONS //////////////////////////////////////////////////////////////////////-->
+		
 			<div class="menubox" id="uno">
-				<a href="index.html">
-					<h4 class="bannermenu"> Inicio </h4> 
+				<a href="sonidoInicial.html">
+					<h4 class="bannermenu"> Sonido Ini </h4> 
 				</a> 
 			</div> 
 			
@@ -40,8 +41,8 @@
 			</div> 
 
 			<div class="menubox" id="tres">
-				<a href="">
-					<h4 class="bannermenu"> Info </h4>
+				<a href="index.html">
+					<h4 class="bannermenu"> Inicio</h4>
 				 </a>
 		    </div> 
 
@@ -49,17 +50,17 @@
 		</header>
 
 
+	<!-- ////////    Game Bar      /////////////////////////////////////////////////////////////////////////////-->
+
 		<header id="gamebar">
 			
 			<div class="bannergamebar">
-				<h2> Bienvenido!!! </h2>
+				<h2> Sonido Inicial </h2>
 			</div>
 
 			<div class="bannergamebar">
-				<h3> Elige una actividad </h3>
+				<h3> Elige el ejercicio y las letras </h3>
 			</div>
-
-
 
 		</header>
 
@@ -69,115 +70,88 @@
 			
 			<div class="row" >
 				
-				<div class="gameLinkBox" id="sonidoInicial">
-					<a href="sonidoInicial.html">
+				<div class="menuElement" id="soloPalabrasDiv">
+					
 						<div class="menuPicBox">
-							<img src="assets/images/queinicia.jpg" alt="SonidoInicial" class="pictureFrame">
+							<img src="assets/images/Palabras.jpg" alt="Solo Palabras" class="pictureFrame">
 						</div>
-						<div class="gameLinkLabel">
-							<p>Sonido Inicial</p>
+						<div class="radioButtonLabel">
+							<input Type="radio" name="mode" value="soloPalabras"> Solo Palabras
 						</div>
-					</a>
 				</div>
-			
-
-				<div class="gameLinkBox" Id="silabaInicial">
-					<a href="">
+				
+				<div class="menuElement" id="queSonidoDiv">
+					
 						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg" alt="Silaba Inicial" class="pictureFrame">
+							<img src="assets/images/quesonido.jpg" alt="Que sonido inicial tiene?" class="pictureFrame">
 						</div>
-						<div class="gameLinkLabel">
-							<p>Silaba Inicial</p>
+						<div class="radioButtonLabel">
+							<input Type="radio" name="mode" value="queSonidoI"> Que sonido inicial tiene?
 						</div>
-					</a>
-				</div>
-			
-				<div class="gameLinkBox" id="identificasonidos">
-					<a href="">
-						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="Identifica Sonidos" class="pictureFrame">
-						</div>
-						<div class="gameLinkLabel">
-							<p>Identifica Sonidos</p>
-						</div>
-					</a>
 				</div>
 
-		
-				<div class="gameLinkBox" id="IdentificaSilabas">
-					<a href="">
+				<div class="menuElement" id="cualIniciaDiv">
+					
 						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="IdentificaSilabas" class="pictureFrame">
+							<img src="assets/images/queinicia.jpg" alt="Cual inicia con este sonido?" class="pictureFrame">
 						</div>
-						<div class="gameLinkLabel">
-							<p>Identifica Silabas</p>
+						<div class="radioButtonLabel">
+							<input Type="radio" name="mode" value="cualIniciaI"> Cual incia con este sonido?
 						</div>
-					</a>
-				</div>		
+				</div>			
 
 			</div>  <!-- END OF ROW -->
 
 
 			<div class="row" >
-				
-				<div class="gameLinkBox" id="rimas">
-					<a href="">
-						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="Rimas" class="pictureFrame">
-						</div>
-						<div class="gameLinkLabel">
-							<p>Rimas</p>
-						</div>
-					</a>
-				</div>
-			
-
-				<div class="gameLinkBox" Id="Leopalabras">
-					<a href="">
-						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="Leo Palabras" class="pictureFrame">
-						</div>
-						<div class="gameLinkLabel">
-							<p>Leo Palabras</p>
-						</div>
-					</a>
-				</div>
-			
-				<div class="gameLinkBox" id="LeoOraciones">
-					<a href="">
-						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="Leo Oraciones" class="pictureFrame">
-						</div>
-						<div class="gameLinkLabel">
-							<p>Leo Oraciones</p>
-						</div>
-					</a>
-				</div>
-
-		
-				<div class="gameLinkBox" id="Vocabulario">
-					<a href="">
-						<div class="menuPicBox">
-							<img src="assets/images/soon.jpg"  alt="Vocabulario" class="pictureFrame">
-						</div>
-						<div class="gameLinkLabel">
-							<p>Vocabulario</p>
-						</div>
-					</a>
-				</div>		
-
+				<button class="case" id="aeiou">A E I O U </button>
+				<button class="case" id="MPSLT">M P S L T</button>
+				<button class="case" id="DRNFB">D R N F B</button>
+					
 			</div>  <!-- END OF ROW -->
 
-		</div> <!-- END OF ACTION -->
+			<div class="row" >
+				<button class="case" id="jgñvLl">J G &#209 V Ll</button>
+				<button class="case" id="ZCh">Z Ch</button>
+										
+			</div>  <!-- END OF ROW -->
 
-		<footer>		
+
+
+
+
+		</div> <!-- END OF ACTION -->
+	<!-- /////////POP UP WINDOW  ///////////////// ------------------------------------- -->
+	<div id="mask">
+		<div id="popUp">
+			<div class="green top">
+				<span id="theX" class="cierre">&times;</span>
+			</div>
+			
+			<div class="whiteRibbon">
+			</div>
+
+			<div id="popBody">
+				<h1 id="popText">you are awsome</h1>
+				
+			</div>
+			
+			<div class="whiteRibbon">
+			</div>
+
+			<div class="green bottom">
+			</div>
+
+		</div>
+	</div>
+			<footer>		
 			<div id="pictureAtt">About the pictures' autor: click here</div>
 			<div id="copyright">&#9400 Carlos Castro 2017 </div>
 			</footer>
+	
 
-	</div> <!-- END OF GENERAL -->
-
-	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		</div> <!-- END OF GENERAL -->
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="assets/javascript/vocabulary.js"></script>
 </body>
 </html>
